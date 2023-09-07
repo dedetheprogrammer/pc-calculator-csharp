@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="1"
+            VerticalOptions="Center"
+        >
+            <Frame
+                WidthRequest="379"
+                HeightRequest="150"
+                BorderColor="Black"
+                HasShadow="False"
+            >
+                <Label
+                    x:Name="LabelOp"
+                    Text=""
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    VerticalOptions="Center"
+                /> 
+                <Label
+                    x:Name="LabelRes"
+                    Text=""
+                    FontSize="30"
+                    HorizontalOptions="End"
+                    VerticalOptions="Center"
+                />
+            </Frame>
+
+            <HorizontalStackLayout
+                WidthRequest="380"
+            >
+                <Button
+                    Text="/"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="1"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+                
+                <Button
+                    Text="2"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="3"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                WidthRequest="380"
+            >
+                <Button
+                    Text="*"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="4"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+                
+                <Button
+                    Text="5"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="6"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                WidthRequest="380"
+            >
+                <Button
+                    Text="-"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="7"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+                
+                <Button
+                    Text="8"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="9"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                WidthRequest="380"
+            >
+                <Button
+
+                    Text="+"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="."
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+                
+                <Button
+                    Text="0"
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+
+                <Button
+                    Text="="
+                    WidthRequest="94"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Clicked="CalculatorRes" />
+            </HorizontalStackLayout>
+
+
+
+            <!--Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Bye, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" /-->
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
